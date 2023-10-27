@@ -1,0 +1,347 @@
+[
+   {
+      "interactiveVideoId": "test1",
+      "controls": {
+         "controlsId": "control1",
+         "autoplay": true,
+         "control": true,
+         "markers": true
+      },
+      "hotspots": [
+         {
+            "id": "leftChoice",
+            "start": 3,
+            "type": "jump",
+            "jumpTo": 80,
+            "initialX": 0,
+            "initialY": 0,
+            "length": 10,
+            "gsapFrom": {
+               "width": 0
+            },
+            "gsapTo": {
+               "width": "50%"
+            }
+         },
+         {
+            "id": "rightChoice",
+            "start": 3,
+            "type": "jump",
+            "jumpTo": 200,
+            "initialX": 50,
+            "initialY": 0,
+            "length": 10,
+            "gsapFrom": {
+               "width": 0
+            },
+            "gsapTo": {
+               "width": "50%"
+            }
+         },
+         {
+            "id": "buttonOverlay2",
+            "start": 10,
+            "type": "overlay",
+            "overlayId": "overlay2",
+            "initialX": 20,
+            "initialY": 35
+         },
+         {
+            "id": "button1",
+            "start": 3,
+            "type": "jump",
+            "jumpTo": 3,
+            "initialX": 0,
+            "initialY": 0,
+            "gsapFrom": {
+               "opacity": 1
+            }
+         },
+         {
+            "id": "button1",
+            "start": 30,
+            "type": "jump",
+            "jumpTo": 3,
+            "initialX": 0,
+            "initialY": 0
+         },
+         {
+            "id": "button1",
+            "start": 40,
+            "type": "jump",
+            "jumpTo": 3,
+            "initialX": 0,
+            "initialY": 0
+         },
+         {
+            "id": "buttonOverlay",
+            "start": 80,
+            "type": "overlay",
+            "overlayId": "overlay",
+            "initialX": 10,
+            "initialY": 15
+         },
+         {
+            "id": "button1",
+            "start": 80,
+            "type": "jump",
+            "jumpTo": 3,
+            "initialX": 40,
+            "initialY": 0,
+            "gsapTo": {
+               "duration": 0.4,
+               "backgroundColor": "green",
+               "left": 0
+            }
+         },
+         {
+            "id": "button1",
+            "start": 200,
+            "type": "jump",
+            "jumpTo": 3,
+            "initialX": 0,
+            "initialY": 0
+         },
+         {
+            "id": "link",
+            "start": 200,
+            "type": "externalButton",
+            "url": "http://google.com",
+            "blank": false,
+            "initialX": 0,
+            "initialY": 0
+         }
+      ]
+   },
+   {
+      "interactiveVideoId": "test2",
+      "controls": {
+         "controlsId": "control2",
+         "autoplay": false,
+         "control": true,
+         "markers": true
+      },
+      "hotspots": [
+         {
+            "id": "test-movement",
+            "start": 3.05,
+            "type": "jump",
+            "jumpTo": 100,
+            "gsapFrom": {
+               "opacity": 1,
+               "left": "52.32%",
+               "top": "49.84%"
+            },
+            "gsapTo": {
+               "duration": 24.87,
+               "yoyo": false,
+               "repeat": 0,
+               "keyframes": {
+                  "10.06%": {
+                     "left": "15.59%",
+                     "top": "64.25%"
+                  },
+                  "11.70%": {
+                     "left": "17.64%",
+                     "top": "56.70%"
+                  },
+                  "14.37%": {
+                     "left": "20.48%",
+                     "top": "47.77%"
+                  },
+                  "16.02%": {
+                     "left": "22.54%",
+                     "top": "43.58%"
+                  },
+                  "17.66%": {
+                     "left": "26.80%",
+                     "top": "37.15%"
+                  },
+                  "20.12%": {
+                     "left": "31.38%",
+                     "top": "32.12%"
+                  },
+                  "22.79%": {
+                     "left": "35.02%",
+                     "top": "29.89%"
+                  },
+                  "24.44%": {
+                     "left": "38.34%",
+                     "top": "28.49%"
+                  },
+                  "26.90%": {
+                     "left": "43.39%",
+                     "top": "27.37%"
+                  },
+                  "29.36%": {
+                     "left": "47.81%",
+                     "top": "26.82%"
+                  },
+                  "31.21%": {
+                     "left": "52.87%",
+                     "top": "26.82%"
+                  },
+                  "33.68%": {
+                     "left": "56.50%",
+                     "top": "29.05%"
+                  },
+                  "35.32%": {
+                     "left": "60.45%",
+                     "top": "31.84%"
+                  },
+                  "37.78%": {
+                     "left": "64.72%",
+                     "top": "35.20%"
+                  },
+                  "40.45%": {
+                     "left": "70.09%",
+                     "top": "39.94%"
+                  },
+                  "42.09%": {
+                     "left": "74.04%",
+                     "top": "44.69%"
+                  },
+                  "44.56%": {
+                     "left": "76.57%",
+                     "top": "48.60%"
+                  },
+                  "46.20%": {
+                     "left": "79.57%",
+                     "top": "53.07%"
+                  },
+                  "48.67%": {
+                     "left": "82.10%",
+                     "top": "58.38%"
+                  },
+                  "51.33%": {
+                     "left": "84.15%",
+                     "top": "63.41%"
+                  },
+                  "53.80%": {
+                     "left": "84.94%",
+                     "top": "66.48%"
+                  },
+                  "56.26%": {
+                     "left": "85.73%",
+                     "top": "68.44%"
+                  },
+                  "58.11%": {
+                     "left": "86.52%",
+                     "top": "70.95%"
+                  },
+                  "60.57%": {
+                     "left": "87.47%",
+                     "top": "72.91%"
+                  },
+                  "63.04%": {
+                     "left": "89.20%",
+                     "top": "78.21%"
+                  },
+                  "65.50%": {
+                     "left": "89.68%",
+                     "top": "81.28%"
+                  },
+                  "70.64%": {
+                     "left": "89.99%",
+                     "top": "82.40%"
+                  },
+                  "73.10%": {
+                     "left": "89.84%",
+                     "top": "82.40%"
+                  },
+                  "77.41%": {
+                     "left": "89.68%",
+                     "top": "82.40%"
+                  }
+               }
+            }
+         },
+         {
+            "id": "leftChoice",
+            "start": 5,
+            "type": "jump",
+            "jumpTo": 80,
+            "initialX": 0,
+            "initialY": 0
+         },
+         {
+            "id": "rightChoice",
+            "start": 5,
+            "type": "jump",
+            "jumpTo": 200,
+            "initialX": 50,
+            "initialY": 0
+         },
+         {
+            "id": "buttonOverlay2",
+            "start": 10,
+            "type": "overlay",
+            "overlayId": "overlay2",
+            "initialX": 20,
+            "initialY": 35
+         },
+         {
+            "id": "button1",
+            "start": 20,
+            "type": "jump",
+            "jumpTo": 3,
+            "initialX": 0,
+            "initialY": 0
+         },
+         {
+            "id": "button1",
+            "start": 30,
+            "type": "jump",
+            "jumpTo": 3,
+            "initialX": 0,
+            "initialY": 0
+         },
+         {
+            "id": "button1",
+            "start": 40,
+            "type": "jump",
+            "jumpTo": 3,
+            "initialX": 0,
+            "initialY": 0
+         },
+         {
+            "id": "buttonOverlay",
+            "start": 80,
+            "type": "overlay",
+            "overlayId": "overlay",
+            "initialX": 10,
+            "initialY": 15
+         },
+         {
+            "id": "button1",
+            "start": 80,
+            "type": "jump",
+            "jumpTo": 3,
+            "initialX": 40,
+            "initialY": 0,
+            "gsapTo": {
+               "duration": 0.4,
+               "backgroundColor": "green",
+               "left": 0
+            }
+         },
+         {
+            "id": "button1",
+            "start": 200,
+            "type": "jump",
+            "jumpTo": 3,
+            "initialX": 0,
+            "initialY": 0
+         },
+         {
+            "id": "link",
+            "start": 200,
+            "type": "externalButton",
+            "url": "http://google.com",
+            "blank": false,
+            "initialX": 0,
+            "initialY": 0
+         }
+      ]
+   }
+]

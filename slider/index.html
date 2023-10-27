@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+
+    <style>
+      * {
+        box-sizing: content-box;
+      }
+
+      html {
+        height: 100%; /* allows body tag to take full height */
+      }
+
+      body {
+        margin: 0 30px;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+        background: #000;
+        color: #fff;
+
+        position: relative;
+      }
+
+      p {
+        text-align: center;
+        font-weight: bold;
+        font-family: Arial, san-serif;
+        text-transform: uppercase;
+      }
+
+      .landing-wrapper {
+        width: 99.9%;
+        height: 100vh;
+        margin: 20px auto;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        cursor: pointer;
+        z-index: 2;
+      }
+
+      .landing-inner-content {
+        width: calc(10 * (240px + 420px));
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        border: 1px solid yellow;
+      }
+
+      .landing-wrapper2 {
+        width: 99.9%;
+        height: 100vh;
+        margin: 20px auto;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        cursor: pointer;
+        z-index: 1;
+      }
+
+      .landing-inner-content2 {
+        width: calc(10 * (240px + 420px));
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        border: 1px solid green;
+      }
+
+      .landing-wrapper2 .box {
+        transform: scale(0.8);
+      }
+      .box {
+        position: relative;
+        background: rgba(0, 50, 502, 0.3);
+        width: 240px;
+        height: 240px;
+        margin: 20px 420px 0 0;
+        overflow: hidden;
+      }
+
+      .box:first-of-type {
+        margin-left: 20px;
+      }
+
+      .box:last-of-type {
+        margin-right: 20px;
+      }
+
+      .box-content {
+        background: #000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+      }
+
+      .box-content img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="landing-wrapper">
+      <div class="landing-inner-content">
+        <div class="box box-1">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-2">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-3">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-4">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-5">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-6">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-7">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-8">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-9">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-10">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="landing-wrapper2">
+      <div class="landing-inner-content2">
+        <div class="box box-1">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-2">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-3">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-4">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-5">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-6">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-7">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-8">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-9">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+
+        <div class="box box-10">
+          <div class="box-content">
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/240x240.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    $(window).on("load", function () {
+      var $landingWrapper = $(".landing-wrapper"),
+        $landingInnerContent = $(".landing-inner-content");
+
+      // set initial container to half of .landing-inner-content width
+      TweenMax.set($landingWrapper, {
+        scrollTo: { x: $landingInnerContent.width() / 4 },
+        ease: Power2.easeOut,
+      });
+
+      // TweenMax.set($landingWrapper2, {
+      //   scrollTo: { x: $landingInnerContent2.width() / 4 },
+      //   ease: Power2.easeOut,
+      // });
+
+      // scroll left and right
+      $landingInnerContent.on("mousemove touchmove", function (e) {
+        if (e.clientX > $landingWrapper.width() / 2) {
+          TweenMax.to($landingWrapper, 2, {
+            scrollTo: {
+              x: "+=175",
+            },
+            ease: Power2.easeOut,
+          });
+        } else {
+          TweenMax.to($landingWrapper, 2, {
+            scrollTo: {
+              x: "-=175",
+            },
+            ease: Power2.easeOut,
+          });
+        }
+        if (e.clientX > $landingWrapper2.width() / 2) {
+          TweenMax.to($landingWrapper2, 2, {
+            scrollTo: {
+              x: "+=75",
+            },
+            ease: Power2.easeOut,
+          });
+        } else {
+          TweenMax.to($landingWrapper2, 2, {
+            scrollTo: {
+              x: "-=75",
+            },
+            ease: Power2.easeOut,
+          });
+        }
+      });
+
+      var $landingWrapper2 = $(".landing-wrapper2"),
+        $landingInnerContent2 = $(".landing-inner-content2");
+
+      // set initial container to half of .landing-inner-content width
+      //TweenMax.set($landingWrapper, {scrollTo: {x: $landingInnerContent.width()/4}, ease: Power2.easeOut});
+
+      // scroll left and right
+      var scroll = 0;
+
+      window.addEventListener("wheel", (event) => {
+        scroll = scroll + event.deltaY;
+        scrollProportion1 = (scroll * 0.5) / 138 + 1;
+        scrollProportion2 = (scroll * 0.1) / 138 + 1;
+
+        $landingWrapper.css("transform", `scale(${scrollProportion1})`);
+        $landingWrapper2.css("transform", `scale(${scrollProportion2})`);
+      });
+    });
+  </script>
+</html>

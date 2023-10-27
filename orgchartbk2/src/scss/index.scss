@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+.svg-chart-container {
+  min-height: 100vh;
+}
+.expand-button {
+  color: #000;
+  border-radius: 30px;
+  padding: 0px;
+  font-size: 10px;
+  margin: auto auto;
+  background-color: #fff;
+  border: 2px solid #000;
+  width: 100%;
+  height: 25px;
+  transition: 0.25s ease all;
+
+  &.expanded {
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #fff;
+  }
+
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0px 5px;
+    i {
+      margin-right: 5px;
+      font-size: 14px;
+    }
+  }
+}
+
+.card {
+  border-radius: 2px;
+  overflow: visible;
+  margin-left: 1px;
+  padding-top: 0px;
+  background-color: white;
+  border: 2px dashed var(--area-color);
+  transition: 0.25s ease all;
+  transform-origin: bottom;
+  &:hover {
+    transform: scale(1.1);
+  }
+  &.expanded {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  &.main {
+    background-color: #143564;
+    color: #fff;
+    .member-name {
+      color: #fff;
+    }
+  }
+  .card-header {
+    height: 10px;
+    width: calc(100% + 2px);
+    margin: -1px;
+    border-radius: 1px;
+  }
+  .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
+.card.team,
+.executive {
+  background: var(--area-color);
+  border: 1px solid var(--area-color);
+}
+
+.director {
+  border: 1px solid var(--area-color);
+
+  .card-header {
+    background: var(--area-color);
+  }
+}
+
+.business-development {
+  --area-color: #f39b97;
+}
+
+.brand-strategy {
+  --area-color: #057e99;
+}
+
+.digital-strategy {
+  --area-color: #ffbc2d;
+}
+
+.project-management {
+  --area-color: #94afda;
+}
+
+.design {
+  --area-color: #be97b4;
+}
+
+.development {
+  --area-color: #ccd8ee;
+}
+
+.marketing {
+  --area-color: #fde4ab;
+}
+
+.content {
+  --area-color: #9cd3ab;
+}
+
+.operations {
+  --area-color: #dbbfe5;
+}
+.finance {
+  --area-color: #e3c6a6;
+}
+
+.recruiting {
+  --area-color: #b5c8e8;
+}
+
+.executive {
+  --area-color: #143564;
+}
+
+.executive {
+  .member-name,
+  .member-position {
+    color: #fff;
+  }
+}
+
+.member {
+  &-name {
+    color: #404040;
+    font-size: 16px;
+    padding: 20px;
+    font-weight: bold;
+  }
+
+  &-position {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+.action {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgb(232, 252, 255);
+  box-shadow: 0px 3px 5px 3px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+
+  button {
+    margin: 5px;
+    border: 0px solid transparent;
+    background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.25s ease all;
+    box-shadow: 0px 1px 3px #a6a6a6;
+    border-radius: 5px;
+    &:hover {
+      background-color: #94afda;
+    }
+    i {
+      margin-right: 10px;
+    }
+  }
+
+  input {
+    padding: 10px;
+    margin: 5px;
+  }
+  .search {
+    display: flex;
+    flex-wrap: wrap;
+    > div {
+      font-size: 14px;
+      margin-left: 10px;
+      position: absolute;
+      bottom: 5px;
+    }
+  }
+}

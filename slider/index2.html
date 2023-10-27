@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      .text-wrapper {
+        height: 100vh;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+      }
+      .texts2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        z-index: 2;
+        transition: 0.2s ease all;
+        pointer-events: none;
+      }
+      .text2 {
+        transform: scale(0.8);
+        transform-origin: center;
+      }
+      .text,
+      .text2 {
+        height: 100vh;
+        position: relative;
+        margin: 0px 240px 0 0;
+        font-size: 25px;
+        text-align: center;
+        line-height: 100vh;
+        flex-shrink: 0;
+        box-sizing: border-box;
+        pointer-events: all;
+      }
+
+      .texts {
+        position: relative;
+        display: flex;
+        z-index: 2;
+        transition: 0.2s ease all;
+        pointer-events: none;
+      }
+
+      .left {
+        position: fixed;
+        margin: auto;
+        top: 0;
+        left: 0;
+        right: 50%;
+        bottom: 0;
+      }
+
+      .right {
+        position: fixed;
+        margin: auto;
+        top: 0;
+        left: 50%;
+        right: 0;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text-wrapper">
+      <div class="texts2">
+        <div class="text2">
+          <img
+            src="https://via.placeholder.com/240/FFFF00/000000?text=6"
+            class="image"
+            id="6"
+          />
+          <div class="content-wrapper">
+            This is the title
+          </div>
+        </div>
+        <div class="text2">
+          <img
+            src="https://via.placeholder.com/240/FFFF00/000000?text=7"
+            class="image"
+            id="7"
+          />
+        </div>
+        <div class="text2">
+          <img
+            src="https://via.placeholder.com/240/FFFF00/000000?text=8"
+            class="image"
+            id="8"
+          />
+        </div>
+        <div class="text2">
+          <img
+            src="https://via.placeholder.com/240/FFFF00/000000?text=9"
+            class="image"
+            id="9"
+          />
+        </div>
+        <div class="text2">
+          <img
+            src="https://via.placeholder.com/240/FFFF00/000000?text=10"
+            class="image"
+            id="10"
+          />
+        </div>
+      </div>
+
+      <div class="texts">
+        <div class="text">
+          <img
+            src="https://via.placeholder.com/240/0000FF/ffffff?text=1"
+            class="image"
+            id="1"
+          />
+        </div>
+        <div class="text">
+          <img
+            src="https://via.placeholder.com/240/0000FF/ffffff?text=2"
+            class="image"
+            id="2"
+          />
+        </div>
+        <div class="text">
+          <img
+            src="https://via.placeholder.com/240/0000FF/ffffff?text=3"
+            class="image"
+            id="3"
+          />
+        </div>
+        <div class="text">
+          <img
+            src="https://via.placeholder.com/240/0000FF/ffffff?text=4"
+            class="image"
+            id="4"
+          />
+        </div>
+        <div class="text">
+          <img
+            src="https://via.placeholder.com/240/0000FF/ffffff?text=5"
+            class="image"
+            id="5"
+          />
+        </div>
+      </div>
+
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+  </body>
+
+  <script>
+    const loop = horizontalLoop(".text", {
+      repeat: -1,
+      speed: 5,
+      paused: true,
+      paddingRight: 240,
+    });
+
+    const loop2 = horizontalLoop(".text2", {
+      repeat: -1,
+      speed: 3,
+      paused: true,
+      paddingRight: 240,
+    });
+
+z    var $landingWrapper2 = $(".texts2");
+    var $landingSlide1 = $(".text");
+    var $landingSlide2 = $(".text2");
+    var scaleValue1 = 1;
+    var scaleValue2 = 1;
+    var transformValue1 = 0;
+    var transformValue2 = 0;
+
+    window.addEventListener(
+      document.body.onpointermove ? "pointermove" : "mousemove",
+      (event) => {
+        loop.timeScale(event.pageX / window.innerWidth - 0.5).resume();
+        loop2.timeScale(event.pageX / window.innerWidth - 0.5).resume();
+
+        transformValue1 = event.pageY * 0.2 - 0.5;
+        transformValue2 = event.pageY * 0.1 - 0.5;
+        // $landingWrapper1.css(
+        //   "transform",
+        //   `translateY(${event.pageY * 0.2 - 0.5}px) `
+        // );
+        // $landingWrapper2.css(
+        //   "transform",
+        //   `translateY(${event.pageY * 0.1 - 0.5}px) `
+        // );
+      }
+    );
+
+    /*
+    This helper function makes a group of elements animate along the x-axis in a seamless, responsive loop.
+
+    Features:
+     - Uses xPercent so that even if the widths change (like if the window gets resized), it should still work in most cases.
+     - When each item animates to the left or right enough, it will loop back to the other side
+     - Optionally pass in a config object with values like "speed" (default: 1, which travels at roughly 100 pixels per second), paused (boolean),  repeat, reversed, and paddingRight.
+     - The returned timeline will have the following methods added to it:
+       - next() - animates to the next element using a timeline.tweenTo() which it returns. You can pass in a vars object to control duration, easing, etc.
+       - previous() - animates to the previous element using a timeline.tweenTo() which it returns. You can pass in a vars object to control duration, easing, etc.
+       - toIndex() - pass in a zero-based index value of the element that it should animate to, and optionally pass in a vars object to control duration, easing, etc. Always goes in the shortest direction
+       - current() - returns the current index (if an animation is in-progress, it reflects the final index)
+       - times - an Array of the times on the timeline where each element hits the "starting" spot. There's also a label added accordingly, so "label1" is when the 2nd element reaches the start.
+     */
+    function horizontalLoop(items, config) {
+      items = gsap.utils.toArray(items);
+      config = config || {};
+      let tl = gsap.timeline({
+          repeat: config.repeat,
+          paused: config.paused,
+          defaults: { ease: "none" },
+          onReverseComplete: () =>
+            tl.totalTime(tl.rawTime() + tl.duration() * 100),
+        }),
+        length = items.length,
+        startX = items[0].offsetLeft,
+        times = [],
+        widths = [],
+        xPercents = [],
+        curIndex = 0,
+        pixelsPerSecond = (config.speed || 1) * 100,
+        snap =
+          config.snap === false ? (v) => v : gsap.utils.snap(config.snap || 1), // some browsers shift by a pixel to accommodate flex layouts, so for example if width is 20% the first element's width might be 242px, and the next 243px, alternating back and forth. So we snap to 5 percentage points to make things look more natural
+        totalWidth,
+        curX,
+        distanceToStart,
+        distanceToLoop,
+        item,
+        i;
+      gsap.set(items, {
+        // convert "x" to "xPercent" to make things responsive, and populate the widths/xPercents Arrays to make lookups faster.
+        xPercent: (i, el) => {
+          let w = (widths[i] = parseFloat(gsap.getProperty(el, "width", "px")));
+          xPercents[i] = snap(
+            (parseFloat(gsap.getProperty(el, "x", "px")) / w) * 100 +
+              gsap.getProperty(el, "xPercent")
+          );
+          return xPercents[i];
+        },
+      });
+      gsap.set(items, { x: 0 });
+      totalWidth =
+        items[length - 1].offsetLeft +
+        (xPercents[length - 1] / 100) * widths[length - 1] -
+        startX +
+        items[length - 1].offsetWidth *
+          gsap.getProperty(items[length - 1], "scaleX") +
+        (parseFloat(config.paddingRight) || 0);
+      for (i = 0; i < length; i++) {
+        item = items[i];
+        curX = (xPercents[i] / 100) * widths[i];
+        distanceToStart = item.offsetLeft + curX - startX;
+        distanceToLoop =
+          distanceToStart + widths[i] * gsap.getProperty(item, "scaleX");
+        tl.to(
+          item,
+          {
+            xPercent: snap(((curX - distanceToLoop) / widths[i]) * 100),
+            duration: distanceToLoop / pixelsPerSecond,
+          },
+          0
+        )
+          .fromTo(
+            item,
+            {
+              xPercent: snap(
+                ((curX - distanceToLoop + totalWidth) / widths[i]) * 100
+              ),
+            },
+            {
+              xPercent: xPercents[i],
+              duration:
+                (curX - distanceToLoop + totalWidth - curX) / pixelsPerSecond,
+              immediateRender: false,
+            },
+            distanceToLoop / pixelsPerSecond
+          )
+          .add("label" + i, distanceToStart / pixelsPerSecond);
+        times[i] = distanceToStart / pixelsPerSecond;
+      }
+      function toIndex(index, vars) {
+        vars = vars || {};
+        Math.abs(index - curIndex) > length / 2 &&
+          (index += index > curIndex ? -length : length); // always go in the shortest direction
+        let newIndex = gsap.utils.wrap(0, length, index),
+          time = times[newIndex];
+        if (time > tl.time() !== index > curIndex) {
+          // if we're wrapping the timeline's playhead, make the proper adjustments
+          vars.modifiers = { time: gsap.utils.wrap(0, tl.duration()) };
+          time += tl.duration() * (index > curIndex ? 1 : -1);
+        }
+        curIndex = newIndex;
+        vars.overwrite = true;
+        return tl.tweenTo(time, vars);
+      }
+      tl.next = (vars) => toIndex(curIndex + 1, vars);
+      tl.previous = (vars) => toIndex(curIndex - 1, vars);
+      tl.current = () => curIndex;
+      tl.toIndex = (index, vars) => toIndex(index, vars);
+      tl.times = times;
+      tl.progress(1, true).progress(0, true); // pre-render for performance
+      if (config.reversed) {
+        tl.vars.onReverseComplete();
+        tl.reverse();
+      }
+      return tl;
+    }
+    var scroll = 0;
+
+    window.addEventListener("wheel", (event) => {
+      if (scroll > 138) {
+        scroll = 138;
+      } else {
+        scroll = scroll + event.deltaY;
+      }
+
+      scaleValue1 = (scroll * -0.5) / 500 + 1;
+      scaleValue2 = (scroll * -0.1) / 500 + 1;
+      console.log(event.deltaY);
+      if (scaleValue1 < 1) {
+        scroll: 138;
+        scaleValue1 = 1;
+        scaleValue2 = 1;
+      }
+      //   var transfomr1 = $landingWrapper1.css("transform");
+      //   var transfomr2 = $landingWrapper2.css("transform");
+      //   var values1 = transfomr1.match(/-?[\d\.]+/g);
+      //   var values2 = transfomr2.match(/-?[\d\.]+/g);
+    });
+
+    function yourFunction() {
+      //   console.log("Scale", scaleValue1, scaleValue2);
+      //   console.log("transform", transformValue1, transformValue2);
+      $landingWrapper1.css(
+        "transform",
+        `scale(${scaleValue1}) translateY(${transformValue1}px`
+      );
+      $landingWrapper2.css(
+        "transform",
+        `scale(${scaleValue2}) translateY(${transformValue2}px`
+      );
+
+      if (scaleValue1 > 3) {
+        $landingWrapper1.css("opacity", "0.1");
+        $(".text").css("pointer-events", "none");
+      } else {
+        $landingWrapper1.css("opacity", "1");
+        $(".text").css("pointer-events", "all");
+      }
+
+      setTimeout(yourFunction, 200);
+    }
+
+    yourFunction();
+
+    // $(".text").click(function () {
+    //   alert("Handler for .click() called.");
+
+    //   loop.timeScale(event.pageX / window.innerWidth - 0.5).pause();
+
+    //   loop2.timeScale(event.pageX / window.innerWidth - 0.5).pause();
+    // });
+
+    // $(".image").on("click", function () {
+    //   //   alert($(this).attr("id"));
+
+    //   loop.toIndex(3);
+
+    //   //   loop.timeScale(event.pageX / window.innerWidth - 0.5).pause();
+    //   //   loop2.timeScale(event.pageX / window.innerWidth - 0.5).pause();
+    // });
+    const boxes = gsap.utils.toArray(".box");
+    boxes.forEach((box, i) =>
+      box.addEventListener("click", () =>
+        loop.toIndex(i, { duration: 0.8, ease: "power1.inOut" })
+      )
+    );
+
+    $(document).keypress(function (e) {
+      if (e.which == 13) {
+        loop.timeScale(event.pageX / window.innerWidth - 0.5).pause();
+
+        loop2.timeScale(event.pageX / window.innerWidth - 0.5).pause();
+      }
+    });
+  </script>
+</html>

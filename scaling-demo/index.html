@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  </head>
+  <body>
+    <div class="fixed-box3" data-scaleId="box1">
+      <h2>First Test wit mixin/script combo</h2>
+    </div>
+    <div class="separator"></div>
+    <div class="fixed-box3" data-scaleId="box2">
+      <h2>Second Test wit mixin/script combo</h2>
+    </div>
+    <div class="separator"></div>
+    <div class="fixed-box">
+      <h2>Test with mixin</h2>
+    </div>
+    <div class="separator"></div>
+    <div class="fixed-box2">
+      <h2>Test without anything</h2>
+    </div>
+
+    <div class="scale" id="scale" data-scaleId="scale">
+      <p class="zmin">Zoom less than 90</p>
+      <p class="z90">Scale 90 = z 100</p>
+      <p class="z100">Scale 100 = z 110</p>
+      <p class="z110">Scale 110 = z 120</p>
+      <p class="z120">Scale 120 = z 133 or 125</p>
+      <p class="z130">Scale 130</p>
+      <p class="z140">Scale 140 = z 150 </p>
+      <p class="z190">Scale 190 = z 100 retina</p>
+      <p class="z210">Scale 210 = z 110 retina</p>
+      <p class="z230">Scale 230 = z 120 retina</p>
+      <p class="z250">Scale 250 = z 133 retina</p>
+      <p class="z280">Scale 280 = z 150 retina</p>
+      <p class="zmax">Zoom more than 150 retina</p>
+    </div>
+  </body>
+  <script src="./assets/js/script.js" type="module"></script>
+</html>

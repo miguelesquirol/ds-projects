@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo rm -rf /home/miguel/.local/share/Trash/files/*.*

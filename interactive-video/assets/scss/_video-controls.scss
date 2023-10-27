@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("./assets/fonts/heydings_controls.ttf");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+.controls {
+  --controls-bg: #fff;
+  --controls-width: 100%;
+  --controls-color: #000;
+  --controls-color-hover: rgb(133, 133, 133);
+  --control-seek: var(--controls-color);
+  --control-fonts: "HeydingsControlsRegular";
+  --controls-markers-color: rgb(87, 87, 87);
+  --controls-marker-height: 6px;
+  --controls-timer-height: 3px;
+
+  width: var(--controls-width);
+  background-color: var(--controls-bg);
+  transition: 1s all;
+  display: flex;
+  margin-bottom: 10px;
+
+  .player:hover &,
+  .player:focus-within & {
+    opacity: 1;
+  }
+
+  button {
+    all: unset;
+    cursor: pointer;
+    &:before {
+      font-family: var(--control-fonts);
+      font-size: 20px;
+      line-height: 20px;
+      position: relative;
+      content: attr(data-icon);
+      color: var(--controls-color);
+      padding: 10px;
+    }
+    &:hover {
+      &:before {
+        color: var(--controls-color-hover);
+      }
+    }
+  }
+
+  .rwd,
+  .fwd {
+    &.active {
+      &:before {
+        color: var(--controls-color-hover);
+      }
+    }
+  }
+  .timer {
+    line-height: 38px;
+    font-size: 10px;
+    font-family: monospace;
+    color: var(--controls-color);
+    flex: 5;
+    position: relative;
+    background-color: var(--controls-bg);
+    margin: 0 10px;
+
+    &:hover {
+      cursor: e-resize;
+    }
+
+    span:not([aria-label="timer"]) {
+      width: 1px;
+      height: var(--controls-marker-height);
+      position: absolute;
+      display: block;
+      background-color: var(--controls-markers-color);
+      bottom: calc(
+        -1 * (var(--controls-marker-height) - var(--controls-timer-height)) / 2
+      );
+      z-index: 1;
+    }
+
+    div {
+      position: absolute;
+      background-color: var(--control-seek);
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: var(--controls-timer-height);
+      border-radius: var(--controls-timer-height);
+      z-index: 2;
+    }
+    &:after {
+      height: var(--controls-timer-height);
+      border-radius: var(--controls-timer-height);
+      background-color: #eee;
+      width: 100%;
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0px;
+    }
+  }
+}

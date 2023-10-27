@@ -1,0 +1,73 @@
+.mousetracker {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  background: #eee;
+  z-index: 100;
+  box-shadow: 0 0 5px #000;
+  padding: 20px 40px;
+  height: 100%;
+  overflow: scroll;
+  width: 25%;
+
+  &-open,
+  &-close {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .instructions,
+  .tracking,
+  .no-tracking {
+    display: none;
+  }
+
+  h2 {
+    margin: 20px 0px;
+  }
+
+  h3 {
+    margin: 20px 0 0;
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  textarea {
+    width: 100%;
+    height: 500px;
+  }
+  .select-id {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    p {
+      margin: 0;
+      padding-right: 20px;
+      font-weight: bold;
+      width: 100%;
+    }
+    select,
+    button {
+      font-size: 20px;
+      margin: 20px 10px 0 0;
+    }
+    button {
+      all: unset;
+      cursor: pointer;
+      padding: 0px 20px;
+      background-color: #999;
+      color: #fff;
+      transition: 0.25s ease all;
+      margin-top: 20px;
+      &:hover {
+        background-color: #eee;
+        color: #000;
+      }
+    }
+  }
+}

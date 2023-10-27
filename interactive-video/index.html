@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Document</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+	</head>
+	<body>
+		<h1>Interactive Video</h1>
+
+		<p>
+			An interactive video allows the viewer to interact with the content. This
+			is done through the use of hotspots and branching. Hotspots are clickable
+			areas which lead to more information being revealed whilst branching
+			allows the viewer to choose the direction of the narrative.
+		</p>
+		<p>Some examples on companies that provide this service :</p>
+
+		<ul>
+			<li>
+				<a href="https://vimeo.com/features/interactive-video" target="_blank"
+					>Vimeo Interactive Videos</a
+				>
+			</li>
+			<li>
+				<a href="https://www.spielcreative.com/">Spiel</a>
+				(Company bought by Vimeo)
+			</li>
+
+			<li><a href="https://www.wirewax.com/explore/">Wirewax</a></li>
+			<li><a href="https://h5p.org/interactive-video">h5p</a></li>
+			<li><a href="https://wideo.co/">Wideo</a></li>
+			<li><a href="https://www.verse.com">Verse</a></li>
+		</ul>
+
+		<h2>Characteristics</h2>
+		<ul>
+			<li>
+				<strong>Branching:</strong> You can click on the screen to go to
+				different parts of the video
+			</li>
+			<li>
+				<strong> Clickable Hotspots:</strong> These are basically areas on the
+				video which can be clicked on to reveal more information or to go to a
+				different site.
+			</li>
+			<li>
+				<strong>Overlays:</strong> This is basically the additional information
+				that appears on the screen once a hotspot is clicked on
+			</li>
+		</ul>
+
+		<h2>Pros</h2>
+		<ul>
+			<li>Customization touchpoints with branding</li>
+			<li>Recording data of every click</li>
+			<li>They generate greater engagement than traditional linear videos</li>
+		</ul>
+		<h2>Cons</h2>
+		<ul>
+			<li>
+				All of the companies we looked into it offer their services of creation
+				and hosting for a monthly or annual fee, there's no possible to test
+				without signing in.
+			</li>
+			<li>
+				Hosting an interactive video is more difficult and slow than traditional
+				videos. Because of this, there are not many examples on the web, or the
+				examples have been removed
+			</li>
+			<li>
+				The cost of the production of an interactive video is higher without
+				taking in account the development to make it interactive
+			</li>
+			<li>
+				The playback of an interactive video is slower and heavier (not super
+				mobile firendly).
+			</li>
+			<li>In a couple of examples, the video wasn't working on Firefox.</li>
+		</ul>
+
+		<h2>Examples</h2>
+
+		<li><a href="https://www.verse.com/">Verse Example Videos</a></li>
+		<li>
+			<a href="https://life-saver.org.uk/#/INTRO"
+				>The Resuscitation Council (UK)</a
+			>
+		</li>
+		<li><a href="https://ncase.me/neurons/interactive.html">Nicky Case</a></li>
+		<li><a href="https://video.eko.com/v/zD2k6V">La Cantina</a></li>
+		<li>
+			<a href="https://www.sbs.com.au/mygrandmotherslingo/"
+				>My Grandmother’s Lingo</a
+			>
+		</li>
+		<li>
+			<a href="https://vimeo.com/features/interactive-video" target="_blank"
+				>Vimeo Interactive Videos</a
+			>
+		</li>
+
+		<h2>Test of a home made solution</h2>
+
+		<div w3-include-html="./assets/includes/mousetracker.html"></div>
+
+		<div
+			class="controls"
+			id="control1"
+			w3-include-html="./assets/includes/controls.html"
+		></div>
+
+		<div class="interactive-video" id="test1">
+			<video
+				width="100%"
+				height="auto"
+				controls="false"
+				preload="metadata"
+				volumen="0"
+				id="video2"
+			>
+				<source
+					src="./assets/video/big_buck_bunny_1080p_CLHD.mp4"
+					type="video/mp4"
+				/>
+				<source
+					src="./assets/video/big_buck_bunny_1080p_CLHD.ogx"
+					type="video/ogg"
+				/>
+				Your browser does not support the video tag.
+			</video>
+			<div class="hotspots">
+				<div class="leftChoice" data-id="leftChoice">
+					<p>Choice 1</p>
+				</div>
+				<div class="rightChoice" data-id="rightChoice">
+					<p>Choice 2</p>
+				</div>
+				<div class="button" data-id="button1">Back to options</div>
+				<div class="link" data-id="link">Go to External URL</div>
+
+				<div data-id="buttonOverlay" class="buttonOverlay">+</div>
+				<div data-id="overlay" class="overlay">
+					<button
+						class="overlay-close"
+						data-icon="X"
+						aria-label="close"
+					></button>
+					Overlay 1 This is an overlay with any kind of information or images.
+				</div>
+
+				<div data-id="buttonOverlay2" class="buttonOverlay">+</div>
+				<div data-id="overlay2" class="overlay">
+					<button
+						class="overlay-close"
+						data-icon="X"
+						aria-label="close"
+					></button>
+
+					Overlay 2 This is an overlay with any kind of information or images.
+				</div>
+			</div>
+		</div>
+
+		<br />
+		<br />
+		<br />
+		<div
+			class="controls"
+			id="control2"
+			w3-include-html="./assets/includes/controls.html"
+		></div>
+
+		<div class="interactive-video" id="test2">
+			<video
+				width="100%"
+				height="auto"
+				controls="false"
+				preload="metadata"
+				id="video2"
+			>
+				<source
+					src="./assets/video/big_buck_bunny_1080p_CLHD.mp4"
+					type="video/mp4"
+				/>
+				<source
+					src="./assets/video/big_buck_bunny_1080p_CLHD.ogx"
+					type="video/ogg"
+				/>
+				Your browser does not support the video tag.
+			</video>
+			<div class="hotspots">
+				<div class="leftChoice" data-id="leftChoice">
+					<p>Choice 1</p>
+				</div>
+				<div class="rightChoice" data-id="rightChoice">
+					<p>Choice 2</p>
+				</div>
+				<div class="move" data-id="test-movement">Move it</div>
+
+				<div class="button" data-id="button1">Back to options</div>
+				<div class="link" data-id="link">Go to External URL</div>
+
+				<div data-id="buttonOverlay" class="buttonOverlay">+</div>
+				<div data-id="overlay" class="overlay">
+					<button
+						class="overlay-close"
+						data-icon="X"
+						aria-label="close"
+					></button>
+					Overlay 1 This is an overlay with any kind of information or images.
+				</div>
+
+				<div data-id="buttonOverlay2" class="buttonOverlay">+</div>
+				<div data-id="overlay2" class="overlay">
+					<button
+						class="overlay-close"
+						data-icon="X"
+						aria-label="close"
+					></button>
+
+					Overlay 2 This is an overlay with any kind of information or images.
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="./script.js" type="module"></script>
+</html>

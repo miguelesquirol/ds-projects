@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo apt update
+sudo apt upgrade
+sudo snap refresh
+sudo apt autoremove  
+sudo apt-get clean
+sudo journalctl --vacuum-time=3d

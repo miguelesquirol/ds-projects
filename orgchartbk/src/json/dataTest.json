@@ -1,0 +1,1525 @@
+[
+    {
+        "area": "executive",
+        "id": "DS00001",
+        "name": "Gabriel S.",
+        "positionName": "CEO",
+        "tag": "executive"
+    },
+    {
+        "area": "executive",
+        "id": "DS00002",
+        "name": "Roman S.",
+        "positionName": "COO",
+        "tag": "executive"
+    },
+    {
+        "area": "Business Development",
+        "id": "DS00003",
+        "name": "BUSINESS DEVELOPMENT",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Business Development",
+        "ParentAreaId": "DS00003",
+        "id": "DS00004",
+        "name": "Branko S.",
+        "positionName": "DIRECTOR BD",
+        "tag": "director"
+    },
+    {
+        "area": "Business Development",
+        "ParentAreaId": "DS00004",
+        "id": "DS00005",
+        "name": "Jacqueline S.",
+        "positionName": "CLIENT RELATIONS",
+        "tag": ""
+    },
+    {
+        "area": "Business Development",
+        "ParentAreaId": "DS00004",
+        "id": "DS00006",
+        "name": "Jasna H.",
+        "positionName": "BUSINESS DEVELOPMENT MANAGER",
+        "tag": ""
+    },
+    {
+        "area": "Business Development",
+        "ParentAreaId": "DS00004",
+        "id": "DS00007",
+        "name": "Ruzica K.",
+        "positionName": "BUSINESS DEVELOPMENT MANAGER",
+        "tag": ""
+    },
+    {
+        "area": "Business Development",
+        "ParentAreaId": "DS00004",
+        "id": "DS00008",
+        "name": "Thomas Q.",
+        "positionName": "BUSINESS DEVELOPMENT MANAGER",
+        "tag": ""
+    },
+    {
+        "area": "Business Development",
+        "ParentAreaId": "DS00004",
+        "id": "DS00009",
+        "name": "Ana B.",
+        "positionName": "BUSINESS DEVELOPMENT ASSOCIATE",
+        "tag": ""
+    },
+    {
+        "area": "Business Development",
+        "ParentAreaId": "DS00004",
+        "id": "DS00010",
+        "name": "Rina Z.",
+        "positionName": "BUSINESS DEVELOPMENT ASSOCIATE",
+        "tag": ""
+    },
+    {
+        "area": "Business Development",
+        "ParentAreaId": "DS00004",
+        "id": "DS00011",
+        "name": "Stefan Z.",
+        "positionName": "BUSINESS DEVELOPMENT ASSOCIATE",
+        "tag": ""
+    },
+    {
+        "area": "Brand Strategy",
+        "id": "DS00012",
+        "name": "BRAND STRATEGY",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Brand Strategy",
+        "ParentAreaId": "DS00012",
+        "id": "DS00013",
+        "name": "Courtney B.",
+        "positionName": "DIRECTOR OF BRAND STRATEGY",
+        "tag": "director"
+    },
+    {
+        "area": "Brand Strategy",
+        "ParentAreaId": "DS00013",
+        "id": "DS00014",
+        "name": "BRAND STRATEGY",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Brand Strategy",
+        "ParentAreaId": "DS00014",
+        "id": "DS00015",
+        "name": "Burak G.",
+        "positionName": "BRAND STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Brand Strategy",
+        "ParentAreaId": "DS00014",
+        "id": "DS00016",
+        "name": "George T.",
+        "positionName": "BRAND STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Brand Strategy",
+        "ParentAreaId": "DS00014",
+        "id": "DS00017",
+        "name": "Vedrana D.",
+        "positionName": "BRAND STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Brand Strategy",
+        "ParentAreaId": "DS00014",
+        "id": "DS00018",
+        "name": "Mariana R.",
+        "positionName": "BRAND STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Brand Strategy",
+        "ParentAreaId": "DS00014",
+        "id": "DS00019",
+        "name": "Peter C.",
+        "positionName": "BRAND STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Brand Strategy",
+        "ParentAreaId": "DS00014",
+        "id": "DS00020",
+        "name": "Benay B",
+        "positionName": "BRAND STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Brand Strategy",
+        "ParentAreaId": "DS00013",
+        "id": "DS00021",
+        "name": "BRAND DESIGN",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Brand Strategy",
+        "ParentAreaId": "DS00021",
+        "id": "DS00022",
+        "name": "Boban V.",
+        "positionName": "BRAND DIRECTOR",
+        "tag": ""
+    },
+    {
+        "area": "Brand Strategy",
+        "ParentAreaId": "DS00021",
+        "id": "DS00023",
+        "name": "Nuno P.",
+        "positionName": "BRAND DESIGNER",
+        "tag": ""
+    },
+    {
+        "area": "Brand Strategy",
+        "ParentAreaId": "DS00021",
+        "id": "DS00024",
+        "name": "Relja B.",
+        "positionName": "BRAND DESIGNER",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "id": "DS00025",
+        "name": "DIGITAL STRATEGY",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00025",
+        "id": "DS00026",
+        "name": "Jamie M.",
+        "positionName": "CLIENT PARTNER",
+        "tag": "director"
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00026",
+        "id": "DS00027",
+        "name": "Sophia J.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00026",
+        "id": "DS00028",
+        "name": "Claudia L.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00026",
+        "id": "DS00029",
+        "name": "Daniel M.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00026",
+        "id": "DS00030",
+        "name": "Ana M.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00026",
+        "id": "DS00031",
+        "name": "Emily H.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00026",
+        "id": "DS00032",
+        "name": "Zohreh Asadi",
+        "positionName": "ASSOCIATE DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00025",
+        "id": "DS00033",
+        "name": "Keith S.",
+        "positionName": "CLIENT PARTNER",
+        "tag": "director"
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00033",
+        "id": "DS00034",
+        "name": "Cristina A.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00033",
+        "id": "DS00035",
+        "name": "Loredana P.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00033",
+        "id": "DS00036",
+        "name": "Gordana B.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00033",
+        "id": "DS00037",
+        "name": "Joana M.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00033",
+        "id": "DS00038",
+        "name": "Alexandra I.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00033",
+        "id": "DS00039",
+        "name": "Veselin R.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00033",
+        "id": "DS00040",
+        "name": "Merve L.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00033",
+        "id": "DS00041",
+        "name": "Ivana I.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00025",
+        "id": "DS00042",
+        "name": "Stephanie S.",
+        "positionName": "CLIENT PARTNER",
+        "tag": "director"
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00042",
+        "id": "DS00043",
+        "name": "Marcela R.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00042",
+        "id": "DS00044",
+        "name": "Vanja P.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00042",
+        "id": "DS00045",
+        "name": "Ricardo R.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00042",
+        "id": "DS00046",
+        "name": "Mary H.",
+        "positionName": "DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Digital Strategy",
+        "ParentAreaId": "DS00042",
+        "id": "DS00047",
+        "name": "Busra U.",
+        "positionName": "ASSOCIATE  DIGITAL STRATEGIST",
+        "tag": ""
+    },
+    {
+        "area": "Project Management",
+        "id": "DS00048",
+        "name": "PROJECT MANAGEMENT",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00048",
+        "id": "DS00049",
+        "name": "Milos E.",
+        "positionName": "HEAD OF PM",
+        "tag": "director"
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00049",
+        "id": "DS00050",
+        "name": "Alek D.",
+        "positionName": "DSMP LEAD PROGRAM MANAGER",
+        "tag": "director"
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00050",
+        "id": "DS00051",
+        "name": "Sonja C.",
+        "positionName": "PROJECT MANAGER DIGITAL SILK PM",
+        "tag": ""
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00050",
+        "id": "DS00052",
+        "name": "Ivana G.",
+        "positionName": "PROJECT MANAGER",
+        "tag": ""
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00050",
+        "id": "DS00053",
+        "name": "Magdalena J.",
+        "positionName": "PROJECT MANAGER",
+        "tag": ""
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00050",
+        "id": "DS00054",
+        "name": "Adem K.",
+        "positionName": "PROJECT MANAGER",
+        "tag": ""
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00050",
+        "id": "DS00055",
+        "name": "Vukasin R.",
+        "positionName": "PROJECT MANAGER",
+        "tag": ""
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00049",
+        "id": "DS00056",
+        "name": "Bojan K.",
+        "positionName": "CUSTOM PROJECTS PROJECT MANAGER",
+        "tag": "director"
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00056",
+        "id": "DS00057",
+        "name": "Victor Y.",
+        "positionName": "PROJECT MANAGER",
+        "tag": ""
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00056",
+        "id": "DS00058",
+        "name": "Olgu U.",
+        "positionName": "PROJECT MANAGER",
+        "tag": ""
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00056",
+        "id": "DS00059",
+        "name": "Danka J.",
+        "positionName": "PROJECT MANAGER",
+        "tag": ""
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00049",
+        "id": "DS00060",
+        "name": "Milica Z.",
+        "positionName": "DEVOPS MANAGER PROJECT MANAGER",
+        "tag": "director"
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00049",
+        "id": "DS00061",
+        "name": "Monica G.",
+        "positionName": "PERFORMANCE MANAGER PROJECT MANAGER",
+        "tag": "director"
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00049",
+        "id": "DS00062",
+        "name": "Tijana D.",
+        "positionName": "MARKETING PM",
+        "tag": "director"
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00062",
+        "id": "DS00063",
+        "name": "Marija S.",
+        "positionName": "MARKETING PM",
+        "tag": ""
+    },
+    {
+        "area": "Project Management",
+        "ParentAreaId": "DS00062",
+        "id": "DS00064",
+        "name": "Bojana G.",
+        "positionName": "MARKETING PM (000)",
+        "tag": ""
+    },
+    {
+        "area": "Design",
+        "id": "DS00065",
+        "name": "DESIGN",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00065",
+        "id": "DS00066",
+        "name": "Alec H.",
+        "positionName": "HEAD OF DESIGN",
+        "tag": "director"
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00066",
+        "id": "DS00067",
+        "name": "WEB DESIGN",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00067",
+        "id": "DS00068",
+        "name": "Carlos R.",
+        "positionName": "ART DIRECTOR",
+        "tag": "director"
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00067",
+        "id": "DS00069",
+        "name": "Branko D.",
+        "positionName": "DR DESIGNER",
+        "tag": ""
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00067",
+        "id": "DS00070",
+        "name": "Andreia R.",
+        "positionName": "DESIGNER",
+        "tag": ""
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00067",
+        "id": "DS00071",
+        "name": "Anne S.",
+        "positionName": "DESIGNER",
+        "tag": ""
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00067",
+        "id": "DS00072",
+        "name": "Saska M.",
+        "positionName": "DESIGNER",
+        "tag": ""
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00067",
+        "id": "DS00073",
+        "name": "Teodor I.",
+        "positionName": "DESIGNER",
+        "tag": ""
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00067",
+        "id": "DS00074",
+        "name": "Vlada V.",
+        "positionName": "DESIGNER",
+        "tag": ""
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00067",
+        "id": "DS00075",
+        "name": "Zoran M.",
+        "positionName": "DESIGNER",
+        "tag": ""
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00067",
+        "id": "DS00076",
+        "name": "Jose C.",
+        "positionName": "DESIGNER",
+        "tag": ""
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00067",
+        "id": "DS00077",
+        "name": "Marjan",
+        "positionName": "DESIGNER",
+        "tag": ""
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00066",
+        "id": "DS00078",
+        "name": "MARKETING",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00078",
+        "id": "DS00079",
+        "name": "Branislav V.",
+        "positionName": "DESIGNER",
+        "tag": ""
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00078",
+        "id": "DS00080",
+        "name": "Valentin S.",
+        "positionName": "DESIGNER",
+        "tag": ""
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00066",
+        "id": "DS00081",
+        "name": "VIDEO EDITING  MOTION GRAPHICS",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Design",
+        "ParentAreaId": "DS00081",
+        "id": "DS00082",
+        "name": "Sarunas M.",
+        "positionName": "VIDEO EDITOR",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "id": "DS00083",
+        "name": "DEVELOPMENT",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00083",
+        "id": "DS00084",
+        "name": "Gary K.",
+        "positionName": "HEAD OF DEVELOPMENT",
+        "tag": "director"
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00084",
+        "id": "DS00085",
+        "name": "LJ",
+        "positionName": "ECOMMERCE DIRECTOR",
+        "tag": "director"
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00085",
+        "id": "DS00086",
+        "name": "Alex Kochniev",
+        "positionName": "SHOPIFY DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00085",
+        "id": "DS00087",
+        "name": "Vladimir P.",
+        "positionName": "MAGENTO DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00085",
+        "id": "DS00088",
+        "name": "Alexandar B.",
+        "positionName": "MAGENTO FE DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00085",
+        "id": "DS00089",
+        "name": "Alex Smirnov",
+        "positionName": "SHOPIFY DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00084",
+        "id": "DS00090",
+        "name": "Stefan V.",
+        "positionName": "BE DIRECTOR",
+        "tag": "director"
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00091",
+        "name": "Volo S.",
+        "positionName": "WP LEAD DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00092",
+        "name": "Aleksandr V.",
+        "positionName": "WP LEAD DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00093",
+        "name": "Serhii K.",
+        "positionName": "WP DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00094",
+        "name": "Olekseii I.",
+        "positionName": "WP BACKEND DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00095",
+        "name": "Filip K.",
+        "positionName": "WP BACKEND DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00096",
+        "name": "Mile M.",
+        "positionName": "WP BACKEND DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00097",
+        "name": "Aleksej V.",
+        "positionName": "FULLSTACK DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00098",
+        "name": "Sergey D.",
+        "positionName": "WP BACKEND DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00099",
+        "name": "Jelena J.",
+        "positionName": "FULLSTACK DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00100",
+        "name": "Momir D.",
+        "positionName": "FULLSTACK DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00101",
+        "name": "Sanja B.",
+        "positionName": "FULLSTACK DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00102",
+        "name": "Iryna I.",
+        "positionName": "FULLSTACK DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00103",
+        "name": "Armin K.",
+        "positionName": "FULLSTACK DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00104",
+        "name": "Marko G.",
+        "positionName": "FULLSTACK DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00090",
+        "id": "DS00105",
+        "name": "Costi C.",
+        "positionName": "FULLSTACK DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00084",
+        "id": "DS00106",
+        "name": "Alex S.",
+        "positionName": "FE DIRECTOR",
+        "tag": "director"
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00106",
+        "id": "DS00107",
+        "name": "Marina R.",
+        "positionName": "FE LEAD DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00106",
+        "id": "DS00108",
+        "name": "Dmytro S.",
+        "positionName": "FE DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00106",
+        "id": "DS00109",
+        "name": "Olga L.",
+        "positionName": "FE DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00106",
+        "id": "DS00110",
+        "name": "Artem S.",
+        "positionName": "FE DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00106",
+        "id": "DS00111",
+        "name": "Dejan J.",
+        "positionName": "FE DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00106",
+        "id": "DS00112",
+        "name": "Mario A.",
+        "positionName": "FE DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00106",
+        "id": "DS00113",
+        "name": "Pavlo H.",
+        "positionName": "FE DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00106",
+        "id": "DS00114",
+        "name": "Miguel E.",
+        "positionName": "FE DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00106",
+        "id": "DS00115",
+        "name": "Natalya V.",
+        "positionName": "FE DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00084",
+        "id": "DS00116",
+        "name": "Anatolii z.",
+        "positionName": "QA DIRECTOR",
+        "tag": "director"
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00116",
+        "id": "DS00117",
+        "name": "Andriy S.",
+        "positionName": "QA ENGINEER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00116",
+        "id": "DS00118",
+        "name": "Alexander S.",
+        "positionName": "QA ENGINEER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00084",
+        "id": "DS00119",
+        "name": "Mihajlo L.",
+        "positionName": "DEVOPS DIRECTOR",
+        "tag": "director"
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00119",
+        "id": "DS00120",
+        "name": "Rostyslav M.",
+        "positionName": "DEVOPS ENGINEER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00119",
+        "id": "DS00121",
+        "name": "Vladislav S.",
+        "positionName": "DEVOPS ENGINEER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00119",
+        "id": "DS00122",
+        "name": "Bogdan N.",
+        "positionName": "DEVOPS ENGINEER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00084",
+        "id": "DS00123",
+        "name": "Alek D.",
+        "positionName": "DSMP PROGRAM MANAGER",
+        "tag": "director"
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00123",
+        "id": "DS00124",
+        "name": "Dani P.",
+        "positionName": "FE LEAD DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00123",
+        "id": "DS00125",
+        "name": "Vlatko S.",
+        "positionName": "WP BACKEND DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00123",
+        "id": "DS00126",
+        "name": "Eugene O.",
+        "positionName": "WP LEAD DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Development",
+        "ParentAreaId": "DS00123",
+        "id": "DS00127",
+        "name": "Nemanja C.",
+        "positionName": "FE DEVELOPER",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "id": "DS00128",
+        "name": "MARKETING",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00128",
+        "id": "DS00129",
+        "name": "Madalin D.",
+        "positionName": "MARKETING DIRECTOR",
+        "tag": "director"
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00129",
+        "id": "DS00130",
+        "name": "SEO",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00130",
+        "id": "DS00131",
+        "name": "Marko A.",
+        "positionName": "SEO DIRECTOR",
+        "tag": "director"
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00131",
+        "id": "DS00132",
+        "name": "Kosta T.",
+        "positionName": "SEO SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00131",
+        "id": "DS00133",
+        "name": "Mihailo M.",
+        "positionName": "SEO SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00131",
+        "id": "DS00134",
+        "name": "Sanja M.",
+        "positionName": "SEO SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00131",
+        "id": "DS00135",
+        "name": "Pavle S.",
+        "positionName": "SEO SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00130",
+        "id": "DS00136",
+        "name": "Bojan K",
+        "positionName": "DIRECTOR OF LINK BUILDING",
+        "tag": "director"
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00137",
+        "name": "Aleksandar G.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00138",
+        "name": "Alex 0.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00139",
+        "name": "Amer D.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00140",
+        "name": "Bogdan L.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00141",
+        "name": "Darko O.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00142",
+        "name": "Liza S.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00143",
+        "name": "Mark S.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00144",
+        "name": "Marko R.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00145",
+        "name": "Milos",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00146",
+        "name": "Nada P.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00147",
+        "name": "Neboja R.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00148",
+        "name": "Nenad I.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00149",
+        "name": "Nikola A.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00150",
+        "name": "Nina D.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00151",
+        "name": "Predrag J.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00152",
+        "name": "Razvan C.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00153",
+        "name": "Stefan C.",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00136",
+        "id": "DS00154",
+        "name": "Ivan B",
+        "positionName": "SEO LINK BUILDING",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00129",
+        "id": "DS00155",
+        "name": "SOCIAL MEDIA",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00155",
+        "id": "DS00156",
+        "name": "Anja D.",
+        "positionName": "SOCIAL MEDIA DIRECTOR",
+        "tag": "director"
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00156",
+        "id": "DS00157",
+        "name": "Alexandra S",
+        "positionName": "ASSISTANT SOCIAL MEDIA DIRECTOR",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00156",
+        "id": "DS00158",
+        "name": "Andrea Z.",
+        "positionName": "SOCIAL MEDIA SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00156",
+        "id": "DS00159",
+        "name": "Cosmin C.",
+        "positionName": "SOCIAL MEDIA SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00156",
+        "id": "DS00160",
+        "name": "Matija D.",
+        "positionName": "SOCIAL MEDIA SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00156",
+        "id": "DS00161",
+        "name": "Selena I.",
+        "positionName": "SOCIAL MEDIA SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00156",
+        "id": "DS00162",
+        "name": "Vinícius T.",
+        "positionName": "SOCIAL MEDIA SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00156",
+        "id": "DS00163",
+        "name": "Karolina P.",
+        "positionName": "SOCIAL MEDIA COMMUNITY MANAGER",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00156",
+        "id": "DS00164",
+        "name": "Nemanja D.",
+        "positionName": "SOCIAL MEDIA COMMUNITY MANAGER",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00129",
+        "id": "DS00165",
+        "name": "PAID MEDIA",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00165",
+        "id": "DS00166",
+        "name": "Hunor B.",
+        "positionName": "PPC SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00165",
+        "id": "DS00167",
+        "name": "Zelimir V.",
+        "positionName": "PPC SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00165",
+        "id": "DS00168",
+        "name": "Shawn G.",
+        "positionName": "PPC SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00129",
+        "id": "DS00169",
+        "name": "EMAIL MARKETING",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00169",
+        "id": "DS00170",
+        "name": "Nik M.",
+        "positionName": "EMAIL MARKETING DIRECTOR",
+        "tag": "director"
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00170",
+        "id": "DS00171",
+        "name": "Gabriela F.",
+        "positionName": "EMAIL AUTOMATION MARKETER",
+        "tag": ""
+    },
+    {
+        "area": "Marketing",
+        "ParentAreaId": "DS00170",
+        "id": "DS00172",
+        "name": "Katarina B.",
+        "positionName": "EMAIL AUTOMATION MARKETER",
+        "tag": ""
+    },
+    {
+        "area": "Content",
+        "id": "DS00173",
+        "name": "CONTENT",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Content",
+        "ParentAreaId": "DS00173",
+        "id": "DS00174",
+        "name": "Emma D.",
+        "positionName": "DIRECTOR OF CONTENT",
+        "tag": "director"
+    },
+    {
+        "area": "Content",
+        "ParentAreaId": "DS00174",
+        "id": "DS00175",
+        "name": "Lindsey S.",
+        "positionName": "EDITOR",
+        "tag": ""
+    },
+    {
+        "area": "Content",
+        "ParentAreaId": "DS00174",
+        "id": "DS00176",
+        "name": "Sorin R.",
+        "positionName": "ASSISTENT EDITOR",
+        "tag": ""
+    },
+    {
+        "area": "Content",
+        "ParentAreaId": "DS00174",
+        "id": "DS00177",
+        "name": "Dusica P.",
+        "positionName": "CONTENT SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Content",
+        "ParentAreaId": "DS00174",
+        "id": "DS00178",
+        "name": "Jonalyn E.",
+        "positionName": "CONTENT SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Content",
+        "ParentAreaId": "DS00174",
+        "id": "DS00179",
+        "name": "Rositsa B.",
+        "positionName": "CONTENT SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Content",
+        "ParentAreaId": "DS00174",
+        "id": "DS00180",
+        "name": "Eva Wilson",
+        "positionName": "MARKETING COPYWRITER",
+        "tag": ""
+    },
+    {
+        "area": "Operations",
+        "id": "DS00181",
+        "name": "OPERATIONS",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Operations",
+        "ParentAreaId": "DS00181",
+        "id": "DS00182",
+        "name": "Lorena D.",
+        "positionName": "DIRECTOR OF OPERATIONS",
+        "tag": "director"
+    },
+    {
+        "area": "Operations",
+        "ParentAreaId": "DS00182",
+        "id": "DS00183",
+        "name": "Elena V.",
+        "positionName": "OPERATIONS MANAGER",
+        "tag": ""
+    },
+    {
+        "area": "Finance",
+        "id": "DS00184",
+        "name": "FINANCE",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Finance",
+        "ParentAreaId": "DS00184",
+        "id": "DS00185",
+        "name": "Bojan M.",
+        "positionName": "DIRECTOR OF FINANCE",
+        "tag": "director"
+    },
+    {
+        "area": "Finance",
+        "ParentAreaId": "DS00185",
+        "id": "DS00186",
+        "name": "Kristijan S.",
+        "positionName": "SENIOR FINANCE MANAGER",
+        "tag": ""
+    },
+    {
+        "area": "Finance",
+        "ParentAreaId": "DS00185",
+        "id": "DS00187",
+        "name": "Martin K.",
+        "positionName": "ACCOUNTS RECEIVABLE SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Finance",
+        "ParentAreaId": "DS00185",
+        "id": "DS00188",
+        "name": "Suana Z.",
+        "positionName": "ACCOUNTS RECEIVABLE SPECIALIST",
+        "tag": ""
+    },
+    {
+        "area": "Recruiting",
+        "id": "DS00189",
+        "name": "RECRUITING",
+        "positionName": "TEAM",
+        "tag": "team"
+    },
+    {
+        "area": "Recruiting",
+        "ParentAreaId": "DS00189",
+        "id": "DS00190",
+        "name": "Sara D.",
+        "positionName": "RECRUITMENT DIRECTOR",
+        "tag": "director"
+    },
+    {
+        "area": "Recruiting",
+        "ParentAreaId": "DS00190",
+        "id": "DS00191",
+        "name": "Anica L.",
+        "positionName": "RECRUITER",
+        "tag": ""
+    },
+    {
+        "area": "Recruiting",
+        "ParentAreaId": "DS00190",
+        "id": "DS00192",
+        "name": "Predrag K.",
+        "positionName": "RECRUITER",
+        "tag": ""
+    }
+]

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Document</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+	</head>
+	<body>
+		<div w3-include-html="./assets/includes/mousetracker.html"></div>
+
+		
+
+		<div class="interactive-video" id="test1">
+			<div
+			class="controls"
+			id="control1"
+			w3-include-html="./assets/includes/controls.html"
+		></div>
+			<video
+				width="100%"
+				height="auto"
+				controls="false"
+				preload="metadata"
+				volumen="0"
+				id="video2"
+				
+			>
+				<source
+					src="./assets/video/Pharrell Williams - Happy (Video).mp4"
+					type="video/mp4"
+				/>
+				<source
+					src="./assets/video/big_buck_bunny_1080p_CLHD.ogx"
+					type="video/ogg"
+				/>
+				Your browser does not support the video tag.
+			</video>
+			<div class="hotspots">
+
+				<div class="jump1" data-id="jump1">
+					Watch the Video
+				</div>
+
+				<div class="jump2" data-id="jump2">
+					Jump to the dancing
+				</div>
+
+				<div class="link1" data-id="link1">
+					<p><a href="#store" target="_blank">Check our Sotre</a></p>
+				</div>
+				<div class="link2" data-id="link2">
+					<p><a href="#contact" target="_blank">Contact Us</a></p>
+				</div>
+
+				<div data-id="back" class="back"><span>Back to start</span></div>
+				<div data-id="buttonOverlay1" class="buttonOverlay"><span>+</span></div>
+				<div data-id="buttonOverlay2" class="buttonOverlay"><span>+</span></div>
+
+
+				<div data-id="overlay2" class="overlay">
+					<button
+						class="overlay-close"
+						data-icon="X"
+						aria-label="close"
+					></button>
+					<div class="store">
+						<div class="image"><img src="/assets/img/pants.jpg"></div>
+						<div class="content">
+							<h2>Addidas Gray Pants</h2>
+							<p> Basic Addidas Gray Pants.</p>
+							<h3>92$</h3>
+							<button>Add to Cart</button>
+					
+						</div>
+					</div>
+				</div>
+				
+				<div data-id="overlay1" class="overlay">
+					<button
+						class="overlay-close"
+						data-icon="X"
+						aria-label="close"
+					></button>
+					<div class="store">
+						<div class="image"><img src="/assets/img/hat.jpeg"></div>
+						<div class="content">
+							<h2>Pharrel Williams Hat</h2>
+							<p> The authentic hat used in the videoclip.</p>
+							<h3>180$</h3>
+							<button>Add to Cart</button>
+					
+						</div>
+					</div>
+				</div>
+				
+
+				<!-- <div class="button" data-id="button1">Back to options</div>
+				<div class="link" data-id="link">Go to External URL</div>
+
+				<div data-id="buttonOverlay" class="buttonOverlay">+</div>
+				<div data-id="overlay" class="overlay">
+					<button
+						class="overlay-close"
+						data-icon="X"
+						aria-label="close"
+					></button>
+					Overlay 1 This is an overlay with any kind of information or images.
+				</div>
+
+				<div data-id="buttonOverlay2" class="buttonOverlay">+</div>
+				<div data-id="overlay2" class="overlay">
+					<button
+						class="overlay-close"
+						data-icon="X"
+						aria-label="close"
+					></button>
+
+					Overlay 2 This is an overlay with any kind of information or images. -->
+				</div>
+			</div>
+		</div>
+
+		<br />
+		<br />
+		<br />
+	</body>
+	<script src="./script.js" type="module"></script>
+</html>

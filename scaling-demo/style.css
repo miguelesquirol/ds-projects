@@ -1,0 +1,3244 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 20px;
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  body {
+    margin: 20px;
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  body {
+    margin: 18.33px;
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  body {
+    margin: 18.33px;
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  body {
+    margin: 16.68px;
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  body {
+    margin: 15px;
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  body {
+    margin: 13.34px;
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  body {
+    margin: 20px;
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  body {
+    margin: 18px;
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  body {
+    margin: 16.68px;
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  body {
+    margin: 15.3px;
+  }
+}
+@media (min-resolution: 280dpi) {
+  body {
+    margin: 13.34px;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+br {
+  height: 20px;
+  line-height: 20px;
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  br {
+    height: 20px;
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  br {
+    height: 18.33px;
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  br {
+    height: 18.33px;
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  br {
+    height: 16.68px;
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  br {
+    height: 15px;
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  br {
+    height: 13.34px;
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  br {
+    height: 20px;
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  br {
+    height: 18px;
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  br {
+    height: 16.68px;
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  br {
+    height: 15.3px;
+  }
+}
+@media (min-resolution: 280dpi) {
+  br {
+    height: 13.34px;
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  br {
+    line-height: 20px;
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  br {
+    line-height: 18.33px;
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  br {
+    line-height: 18.33px;
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  br {
+    line-height: 16.68px;
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  br {
+    line-height: 15px;
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  br {
+    line-height: 13.34px;
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  br {
+    line-height: 20px;
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  br {
+    line-height: 18px;
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  br {
+    line-height: 16.68px;
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  br {
+    line-height: 15.3px;
+  }
+}
+@media (min-resolution: 280dpi) {
+  br {
+    line-height: 13.34px;
+  }
+}
+
+.scale {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  border: 1px solid black;
+  padding: 20px;
+  transform-origin: top right !important;
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .scale {
+    top: 20px;
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .scale {
+    top: 18.33px;
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .scale {
+    top: 18.33px;
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .scale {
+    top: 16.68px;
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .scale {
+    top: 15px;
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .scale {
+    top: 13.34px;
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .scale {
+    top: 20px;
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .scale {
+    top: 18px;
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .scale {
+    top: 16.68px;
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .scale {
+    top: 15.3px;
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale {
+    top: 13.34px;
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .scale {
+    right: 20px;
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .scale {
+    right: 18.33px;
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .scale {
+    right: 18.33px;
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .scale {
+    right: 16.68px;
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .scale {
+    right: 15px;
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .scale {
+    right: 13.34px;
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .scale {
+    right: 20px;
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .scale {
+    right: 18px;
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .scale {
+    right: 16.68px;
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .scale {
+    right: 15.3px;
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale {
+    right: 13.34px;
+  }
+}
+@media (max-resolution: 89dpi) {
+  .scale .zmin {
+    display: block;
+  }
+}
+@media (min-resolution: 281dpi) {
+  .scale .zmax {
+    display: block;
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .scale .z90 {
+    display: block;
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .scale .z100 {
+    display: block;
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .scale .z110 {
+    display: block;
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .scale .z120 {
+    display: block;
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .scale .z130 {
+    display: block;
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .scale .z140 {
+    display: block;
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .scale .z190 {
+    display: block;
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .scale .z210 {
+    display: block;
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .scale .z230 {
+    display: block;
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .scale .z250 {
+    display: block;
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale .z280 {
+    display: block;
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale .zmax {
+    display: block;
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--scale-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--scale-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--scale-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--scale-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--scale-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--scale-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--scale-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--scale-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--scale-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--scale-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--scale-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--scale-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--scale-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--scale-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--scale-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--scale-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--scale-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--scale-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--scale-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--scale-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--scale-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--scale-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--scale-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--scale-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--scale-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--scale-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--scale-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--scale-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--scale-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--scale-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--scale-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--scale-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--scale-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--scale-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--scale-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--scale-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  .scale {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--scale-height) * -0.333);
+  }
+}
+.scale p {
+  font-size: 18px;
+  display: none;
+}
+
+.fixed-box {
+  border: 1px solid #000;
+  position: relative;
+  width: 300px;
+  height: 200px;
+  padding: 40px;
+  background: #fff;
+  max-width: 100%;
+}
+.fixed-box h2 {
+  font-size: 2rem;
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .fixed-box h2 {
+    font-size: 2rem;
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .fixed-box h2 {
+    font-size: 1.833rem;
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .fixed-box h2 {
+    font-size: 1.833rem;
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .fixed-box h2 {
+    font-size: 1.668rem;
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .fixed-box h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .fixed-box h2 {
+    font-size: 1.334rem;
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .fixed-box h2 {
+    font-size: 2rem;
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .fixed-box h2 {
+    font-size: 1.8rem;
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .fixed-box h2 {
+    font-size: 1.668rem;
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .fixed-box h2 {
+    font-size: 1.53rem;
+  }
+}
+@media (min-resolution: 280dpi) {
+  .fixed-box h2 {
+    font-size: 1.334rem;
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .fixed-box {
+    width: 300px;
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .fixed-box {
+    width: 274.95px;
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .fixed-box {
+    width: 274.95px;
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .fixed-box {
+    width: 250.2px;
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .fixed-box {
+    width: 225px;
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .fixed-box {
+    width: 200.1px;
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .fixed-box {
+    width: 300px;
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .fixed-box {
+    width: 270px;
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .fixed-box {
+    width: 250.2px;
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .fixed-box {
+    width: 229.5px;
+  }
+}
+@media (min-resolution: 280dpi) {
+  .fixed-box {
+    width: 200.1px;
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .fixed-box {
+    height: 200px;
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .fixed-box {
+    height: 183.3px;
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .fixed-box {
+    height: 183.3px;
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .fixed-box {
+    height: 166.8px;
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .fixed-box {
+    height: 150px;
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .fixed-box {
+    height: 133.4px;
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .fixed-box {
+    height: 200px;
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .fixed-box {
+    height: 180px;
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .fixed-box {
+    height: 166.8px;
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .fixed-box {
+    height: 153px;
+  }
+}
+@media (min-resolution: 280dpi) {
+  .fixed-box {
+    height: 133.4px;
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .fixed-box {
+    padding: 40px;
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .fixed-box {
+    padding: 36.66px;
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .fixed-box {
+    padding: 36.66px;
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .fixed-box {
+    padding: 33.36px;
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .fixed-box {
+    padding: 30px;
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .fixed-box {
+    padding: 26.68px;
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .fixed-box {
+    padding: 40px;
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .fixed-box {
+    padding: 36px;
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .fixed-box {
+    padding: 33.36px;
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .fixed-box {
+    padding: 30.6px;
+  }
+}
+@media (min-resolution: 280dpi) {
+  .fixed-box {
+    padding: 26.68px;
+  }
+}
+
+.fixed-box2 {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  padding: 40px;
+  background: #fff;
+  max-width: 100%;
+  border: 1px solid #000;
+}
+
+.fixed-box3 {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  padding: 40px;
+  background: #fff;
+  max-width: 100%;
+  border: 1px solid #000;
+}
+
+.separator {
+  display: block;
+  height: 20px;
+  width: 100%;
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  .separator {
+    height: 20px;
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  .separator {
+    height: 18.33px;
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  .separator {
+    height: 18.33px;
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  .separator {
+    height: 16.68px;
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  .separator {
+    height: 15px;
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  .separator {
+    height: 13.34px;
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  .separator {
+    height: 20px;
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  .separator {
+    height: 18px;
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  .separator {
+    height: 16.68px;
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  .separator {
+    height: 15.3px;
+  }
+}
+@media (min-resolution: 280dpi) {
+  .separator {
+    height: 13.34px;
+  }
+}
+
+[data-scaleid=box1] {
+  height: 200px;
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box1-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box1-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box1-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box1-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box1-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box1-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box1-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box1-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box1-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box1-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box1-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box1-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box1-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box1-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box1-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box1-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box1-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box1-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box1-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box1-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box1-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box1-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box1-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box1-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box1-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box1-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box1-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box1-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box1-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box1-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box1-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box1-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box1-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box1-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box1-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box1-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box1] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box1-height) * -0.333);
+  }
+}
+
+[data-scaleid=box2] {
+  height: 150px;
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box2-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box2-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box2-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box2-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box2-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box2-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box2-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box2-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box2-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box2-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box2-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box2-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box2-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box2-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box2-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box2-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box2-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box2-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box2-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box2-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box2-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box2-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box2-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box2-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box2-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box2-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box2-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box2-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box2-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box2-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 90dpi) and (max-resolution: 99dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 100dpi) and (max-resolution: 109dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 110dpi) and (max-resolution: 119dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9165);
+    margin-bottom: calc(var(--box2-height) * -0.0835);
+  }
+}
+@media (min-resolution: 120dpi) and (max-resolution: 129dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 130dpi) and (max-resolution: 139dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.75);
+    margin-bottom: calc(var(--box2-height) * -0.25);
+  }
+}
+@media (min-resolution: 140dpi) and (max-resolution: 189dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+@media (min-resolution: 190dpi) and (max-resolution: 209dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(1);
+    margin-bottom: calc(var(--box2-height) * 0);
+  }
+}
+@media (min-resolution: 210dpi) and (max-resolution: 229dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.9);
+    margin-bottom: calc(var(--box2-height) * -0.1);
+  }
+}
+@media (min-resolution: 230dpi) and (max-resolution: 249dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.834);
+    margin-bottom: calc(var(--box2-height) * -0.166);
+  }
+}
+@media (min-resolution: 250dpi) and (max-resolution: 279dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.765);
+    margin-bottom: calc(var(--box2-height) * -0.235);
+  }
+}
+@media (min-resolution: 280dpi) {
+  [data-scaleid=box2] {
+    transform-origin: top left;
+    transform: scale(0.667);
+    margin-bottom: calc(var(--box2-height) * -0.333);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
